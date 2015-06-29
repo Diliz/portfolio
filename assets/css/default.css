@@ -1,0 +1,171 @@
+@import url("reset.css");
+
+/* ------ layout
+-----------------------------------------------*/
+
+.photo {
+	border-radius: 250px;
+	margin: auto;
+	width: 10%;
+	height: 10%;
+}
+
+.legend {
+float:left;
+width:250px;
+margin-top:140px;
+}
+
+#content h1 {
+font-family:'Cabin Sketch', arial, serif;
+text-shadow:3px 3px 0 #ddd;
+color:#193340;
+font-size:40px;
+margin-bottom:40px;
+text-align:right;
+}
+
+.skills {
+float:left;
+clear:both;
+width:100%;
+}
+
+.skills ul,
+.skills li {
+display:block;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.skills li {
+float:right;
+clear:both;
+padding:0 15px;
+height:35px;
+line-height:35px;
+color:#fff;
+margin-bottom:1px;
+font-size:18px;
+}
+
+.skills .jq {
+background:#97BE0D;
+}
+
+.skills .css {
+background:#D84F5F;
+}
+
+.skills .html {
+background:#88B8E6;
+}
+
+.skills .php {
+background:#BEDBE9;
+}
+
+.skills .sql {
+background:#EDEBEE;
+}
+
+.footer {
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#2D2D2D;
+color:#EAEAEA;
+padding:20px 0;
+}
+
+.footer a {
+color:#EAEAEA;
+}
+
+.footer a:hover {
+color:#E4842C;
+}
+
+.footer .inside {
+font-family: 'Cabin Sketch', arial, serif;
+font-size:22px;
+text-align:center;
+}
+
+
+#diagram {
+float:right;
+width:600px;
+height:600px;
+}
+
+.get {
+display:none;
+}
+
+
+/* ------ anchors
+-----------------------------------------------*/
+
+a {
+text-decoration:none;
+color:#333;
+}
+
+/* Unity */
+
+
+body {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+a:link, a:visited {
+	color: #000;
+}
+a:active, a:hover {
+	color: #666;
+}
+p.header {
+	font-size: small;
+}
+p.header span {
+	font-weight: bold;
+}
+p.footer {
+	font-size: x-small;
+}
+div.content {
+	margin: auto;
+	width: 960px;
+}
+div.broken,
+div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.broken a,
+div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.broken img,
+div.missing img {
+	border-width: 0px;
+}
+div.broken {
+	display: none;
+}
+div#unityPlayer {
+	margin: auto;
+	margin-top: 20px;
+	cursor: default;
+	height: 600px;
+	width: 960px;
+}
